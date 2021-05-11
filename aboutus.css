@@ -1,0 +1,125 @@
+#maindemo
+{
+    text-align:center;
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+   
+}
+#aboutusone
+{
+    padding:20px;
+    margin:10px;
+}
+
+#aboutustwo
+{
+    padding:20px;
+    margin:10px;
+}
+#aboutusthree
+{
+    padding:20px;
+    margin:10px;
+}
+
+#hone
+{
+    display: inline-block;
+  position:relative;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#hone:after
+{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+#hone:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#htwo
+{
+    display: inline-block;
+  position:relative;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#htwo:after
+{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+#htwo:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hthree
+{
+    display: inline-block;
+  position:relative;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#hthree:after
+{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+#hthree:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#ab
+{
+    text-align: center;  
+    margin-left:20%;
+    margin-right:20%;
+    border:1px solid white;
+    border-radius: 40px;
+    padding:35px;
+    font-size: 20px;
+    color:white;
+
+}
+#ab:hover{
+    background-color:#ffd166 ;
+    transition: .4s;
+}
